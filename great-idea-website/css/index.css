@@ -47,20 +47,175 @@ table {
 	border-spacing: 0;
 }
 
-/* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	background: white;
+	color: black;
+	box-sizing: border-box;
+	margin: 100px;
+	
+}
+
+/* Set every element's box-sizing to border-box*/
+* {
+	box-sizing: border-box;
+}
+
+header {
+		height: 10px;
+		border-bottom: 2px solid black;
+		
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%font-family: 'Titillium Web', Sans-serif;
+
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+
+/* Your code goes here! */
+
+* {
+	font-size: 30px;
+	box-sizing: border-box;
+	
+}
+nav a {
+	text-decoration: none;
+	color: gray;
+	margin: 75px;
+	height: 50px;
+}
+nav {
+	margin-top: 50px;
+}
+.logo {
+	 float: right;
+	 height: 50px;
+	 /*display: block;*/
+	 position: absolute;
+	 left: 1200px;
+	 top: 20px;
+	 margin: 0px 75px 15px 0px;
+
+}
+.headerOne {
+
+	/*position: absolute;
+	top: 300px;
+	left: 250px;*/
+	border-bottom: 1px solid black;
+	width: 1470px;
+	margin-left: 30px;
+	
+}
+
+h1 {
+	font-size: 150px;
+	text-align: center;
+	letter-spacing: 3px;
+	width: 50px;
+	margin-top: 200px;
+	margin-left: 200px;
+	width: 600px;
+  }
+  
+  button {
+	  border: 2px solid black;
+	  width: 300px;
+	  height: 50px;
+	  margin-left: 325px;
+	  margin-top: 0px;
+
+  }
+  h3 {
+	display: inline-block;
+	width: 0px;
+	height: 20px;
+	margin-top: 50px;
+	
+	
+  }
+p {
+	font-size: 20px;
+	font-family: 'Titillium Web', Sans-serif;
+}
+
+  .features {
+	  float: left;
+	  width: 700px;
+	  height: 10px;
+	  margin-left: 50px;
+	  margin-top: -175px;
+	  
+  }
+  .About {
+	float: right;
+	width: 700px;
+	margin-top: -175px;
+  }
+  .middle-img {
+	width: 1470px;
+	height: 200px;
+	margin-top: 50px;
+	margin-left: 40px;
+
+  }
+ .Services {
+	 
+	 width: 400px;
+	 margin-left: 50px;
+	/* margin-top: 5px;*/
+
+
+ }
+
+ .Product {
+	 display: inline-block;
+	 position: absolute;
+	 width: 400px;
+	 margin-left: 600px;
+	 margin-top: -185px;
+
+ }
+ .Vision {
+	display: inline-block;
+	 position: absolute;
+	 width: 400px;
+	 margin-left: 1100px;
+	 margin-top: -185px;
+ }
+  .main {
+	
+	margin-top: 1000px;
+
+  }
+.Contact {
+
+	font-family: 'Titillium Web', Sans-serif;
+	height: 150px;
+	margin: 20px;
+	margin-left: 50px;
+	margin-top: 60px;
+	border-top: 1px solid black;
+	width: 1470px;
+}
+#Copyright p {
+	text-align: center;
+	font-size: 20px;
+	margin-top: 200px;
+
+	
+}
+
+.picRight {
+	position: absolute;
+	top: 200px;
+	right: 100px;
+	height: 550px;
+	}
